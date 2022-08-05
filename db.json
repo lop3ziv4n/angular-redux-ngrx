@@ -1,0 +1,34 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "cost": 420
+    },
+    {
+      "id": 2,
+      "name": "The Fellowship of the Ring (The Lord of the Rings, #1)",
+      "author": "J.R.R. Tolkien",
+      "cost": 520
+    },
+    {
+      "id": 3,
+      "name": "The Silmarillion",
+      "author": "J.R.R. Tolkien",
+      "cost": 420
+    },
+    {
+      "id": 4,
+      "name": "The Return of the King (The Lord of the Rings, #3)",
+      "author": "J.R.R. Tolkien",
+      "cost": 620
+    },
+    {
+      "id": 5,
+      "name": "The Two Towers (The Lord of the Rings, #2)",
+      "author": "J.R.R. Tolkien",
+      "cost": 520
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<div class="row text-center">
+  <div class="col">
+    <h1>Contador</h1>
+    <h2>{{ count$ | async }}</h2>
+  </div>
+</div>
+
+<div class="row text-center">
+  <div class="col">
+    <button class="btn btn-primary mx-3" (click)="increment()">Incrementar</button>
+    <button class="btn btn-secondary" (click)="decrement()">Decrementar</button>
+  </div>
+</div>
+
+<br>
+
+<app-child></app-child>

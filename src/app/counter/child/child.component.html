@@ -1,0 +1,17 @@
+<div class="row text-center">
+  <div class="col">
+    <h3>Contador</h3>
+    <h4>{{ count$ | async }}</h4>
+  </div>
+</div>
+
+<div class="row text-center">
+  <div class="col">
+    <button class="btn btn-primary mx-3" (click)="multiply()">Multiplicar</button>
+    <button class="btn btn-secondary" (click)="divide()">Dividir</button>
+  </div>
+</div>
+
+<br>
+
+<app-grandchild></app-grandchild>
